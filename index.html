@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egregor Architect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app-container">
+        <header>
+            <h1>Egregor Architect</h1>
+            <p>Weave Consciousness into Form</p>
+        </header>
+
+        <main id="main-content">
+            <!-- Step 1: Introduction & Ethics -->
+            <section id="step-1-intro" class="step active">
+                <h2>A Note on Creation</h2>
+                <p>You are about to engage in a process of focused intention to create a semi-autonomous psychic construct. This is not a toy. The energy you invest will be reflected back to you. Proceed with clarity, respect, and ethical consideration for yourself and the collective.</p>
+                <p>Ensure your intentions are positive and constructive. The Architect is a tool for exploration, not manipulation.</p>
+                <button id="begin-button" class="nav-button">I Understand and Proceed</button>
+            </section>
+
+            <!-- Step 2: Naming and Intent -->
+            <section id="step-2-identity" class="step">
+                <h2>Step 1: Identity & Intent</h2>
+                <div class="form-group">
+                    <label for="egregor-name">Name the Construct</label>
+                    <input type="text" id="egregor-name" placeholder="e.g., The Weaver of Possibilities">
+                </div>
+                <div class="form-group">
+                    <label for="egregor-intent">Define its Core Intent (its primary purpose)</label>
+                    <textarea id="egregor-intent" rows="4" placeholder="e.g., To inspire creative breakthroughs and connect me with novel ideas."></textarea>
+                </div>
+                <button id="next-to-components" class="nav-button">Next: Components &raquo;</button>
+            </section>
+
+            <!-- Step 3: Core Components -->
+            <section id="step-3-components" class="step">
+                <h2>Step 2: Energetic Signature</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="egregor-emotion">Dominant Emotion</label>
+                        <select id="egregor-emotion">
+                            <option value="Serenity">Serenity</option>
+                            <option value="Joy">Joy</option>
+                            <option value="Courage">Courage</option>
+                            <option value="Awe">Awe</option>
+                            <option value="Compassion">Compassion</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="egregor-archetype">Resonant Archetype</label>
+                        <select id="egregor-archetype">
+                            <option value="The Sage">The Sage (Wisdom)</option>
+                            <option value="The Artist">The Artist (Creativity)</option>
+                            <option value="The Guardian">The Guardian (Protection)</option>
+                            <option value="The Healer">The Healer (Restoration)</option>
+                            <option value="The Explorer">The Explorer (Discovery)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="egregor-force">Elemental Force</label>
+                        <select id="egregor-force">
+                            <option value="Starlight">Starlight (Illumination)</option>
+                            <option value="Earth">Deep Earth (Grounding)</option>
+                            <option value="Flowing Water">Flowing Water (Adaptability)</option>
+                            <option value="Storm">Storm (Transformation)</option>
+                            <option value="Void">Void (Potential)</option>
+                        </select>
+                    </div>
+                </div>
+                <button id="generate-button" class="nav-button">Synthesize Egregor</button>
+            </section>
+
+            <!-- Step 4: Generation -->
+            <section id="step-4-generation" class="step">
+                <h2>Synthesis in Progress...</h2>
+                <div class="loader"></div>
+                <p>The loom of consciousness is weaving your intention into the digital aether. Focusing... Resonating... Manifesting...</p>
+            </section>
+
+            <!-- Step 5: Ritual Chamber -->
+            <section id="step-5-chamber" class="step">
+                <div id="chamber-content">
+                    <h2 id="chamber-title"></h2>
+                    <div class="egregor-display">
+                        <div class="sigil-container">
+                            <img id="egregor-sigil" src="" alt="The visual embodiment of the Egregor.">
+                        </div>
+                        <div class="details-container">
+                             <h3>Core Intent</h3>
+                             <p id="chamber-intent"></p>
+                             <h3>Mantra of Invocation</h3>
+                             <audio id="egregor-invocation" controls></audio>
+                             <div id="chamber-components"></div>
+                        </div>
+                    </div>
+                    <div class="feedback-loop">
+                        <h3>Psychospiritual Feedback</h3>
+                        <p>Observe the Egregor's influence. Use this space to journal any insights, dreams, or synchronicities. Regular interaction strengthens the connection.</p>
+                        <textarea id="journal" placeholder="Record your observations here..."></textarea>
+                    </div>
+                    <div class="anchoring-options">
+                        <h3>Anchoring</h3>
+                        <p>Your Egregor is currently anchored in this personal digital sanctum. Future developments will allow anchoring onto blockchain ledgers (NFTs) or integration into a wider collective grid.</p>
+                    </div>
+                    <button id="create-new-button" class="nav-button">Create Another</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
