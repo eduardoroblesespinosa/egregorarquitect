@@ -115,7 +115,7 @@ if (typeof game === 'undefined') {
                     return { url: 'https://picsum.photos/300' };
                 }
                 if (type === 'sound') {
-                    return { url: 'https://developer.spotify.com/web-api/search-item/' };
+                    return { url: 'https://api.deezer.com/search/album' };
                 }
             }
         }
