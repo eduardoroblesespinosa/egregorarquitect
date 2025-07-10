@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     type: "sound",
                     prompt: invocationPrompt,
                     asset_name: "egregor_invocation.mp3",
-                    duration_seconds: 3600
+                    duration_seconds: 15
                 })
             ]);
 
