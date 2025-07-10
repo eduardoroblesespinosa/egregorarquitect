@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 game.assets.generate({
                     type: "sound",
                     prompt: invocationPrompt,
-                    asset_name: "eps.mp3",
+                    asset_name: "egregor_invocation.mp3",
                     duration_seconds: 15
                 })
             ]);
