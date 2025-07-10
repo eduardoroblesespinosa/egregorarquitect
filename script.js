@@ -115,7 +115,7 @@ if (typeof game === 'undefined') {
                     return { url: 'https://picsum.photos/300' };
                 }
                 if (type === 'sound') {
-                    return { url: '' };
+                    return { url: 'https://open.spotify.com/intl-es/artist/0HOGJNckuSAagDoMGVaI0h?si=nsxJl7hNRwiA_-6vgUB9hg' };
                 }
             }
         }
